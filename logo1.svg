@@ -1,0 +1,50 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#1e1e3f" stroke="#4169e1" stroke-width="4"/>
+  
+  <!-- Outer Glow -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#4169e1" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Main Cube (3D effect) -->
+  <!-- Top face -->
+  <polygon points="70,70 100,50 130,70 100,90" fill="#5a7ce8" stroke="#4169e1" stroke-width="2"/>
+  
+  <!-- Left face -->
+  <polygon points="70,70 100,90 100,130 70,110" fill="#4169e1" stroke="#2e4bc6" stroke-width="2"/>
+  
+  <!-- Right face -->
+  <polygon points="100,90 130,70 130,110 100,130" fill="#2e4bc6" stroke="#1e3a8a" stroke-width="2"/>
+  
+  <!-- Inner cube details -->
+  <polygon points="80,80 90,75 100,80 90,85" fill="#6b8eff" opacity="0.8"/>
+  <polygon points="100,80 110,75 120,80 110,85" fill="#5a7ce8" opacity="0.8"/>
+  
+  <!-- Glowing effects -->
+  <circle cx="100" cy="100" r="70" fill="none" stroke="url(#glowGradient)" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Letter 'L' integrated into design -->
+  <path d="M 60 140 L 60 160 L 80 160 L 80 155 L 65 155 L 65 140 Z" fill="#4169e1" stroke="#5a7ce8" stroke-width="1"/>
+  
+  <!-- Small decorative elements -->
+  <circle cx="85" cy="65" r="3" fill="#4169e1" opacity="0.7"/>
+  <circle cx="115" cy="65" r="3" fill="#4169e1" opacity="0.7"/>
+  <circle cx="85" cy="135" r="3" fill="#4169e1" opacity="0.7"/>
+  <circle cx="115" cy="135" r="3" fill="#4169e1" opacity="0.7"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4169e1;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#4169e1;stop-opacity:0"/>
+    </radialGradient>
+    
+    <linearGradient id="cubeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5a7ce8"/>
+      <stop offset="50%" style="stop-color:#4169e1"/>
+      <stop offset="100%" style="stop-color:#2e4bc6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Text (optional - can be removed for pure logo) -->
+  <text x="100" y="185" text-anchor="middle" font-family="Orbitron, monospace" font-size="16" font-weight="bold" fill="#4169e1">LYTHCRAFT</text>
+</svg> 
